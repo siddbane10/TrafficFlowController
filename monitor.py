@@ -1,7 +1,7 @@
 import cv2
 from sys import argv
 sr,_file = argv
-_dir='/home/sid/Documents/Hackathon_627'
+_dir='/TrafficFlowController'
 fname='arduino_ip.txt'
 car_cascade = cv2.CascadeClassifier(_dir+'/Classifier/cars.xml')
 
